@@ -1,0 +1,16 @@
+include:ookla-speedtest
+
+speed.cloudflare.com
+speed.dler.io
+openspeedtest.com
+cachefly.net
+broadbandspeedchecker.co.uk
+loadingtest.com
+testmy.net
+proof.ovh.net
+bandwidthplace.com
+keyword:speedtest
+keyword:speedtestcustom
+keyword:openspeedtest
+keyword:speedchecker
+keyword:iperf
