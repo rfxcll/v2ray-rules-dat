@@ -1,6 +1,5 @@
 include:iqiyi
 include:abema
-include:anime
 include:archiveofourown
 include:attwatchtv
 include:bahamut
@@ -16,8 +15,6 @@ include:hulu
 include:imdb
 include:kingkonglive
 include:kkbox
-include:manhuagui
-include:mudvod
 include:mytvsuper
 include:niconico
 include:pixiv
@@ -39,47 +36,26 @@ include:vimeo
 include:visualarts
 include:volmoe
 include:wwe
-include:z-library
-include:zeetv
 include:youtube
-iq.com
-# > Tencent Video
-v.smtcdns.com
-vv.video.qq.com
+include:zeetv
+
 # > NIMO TV
-ylog.nimo.tv
-api.nimo.tv
-metric.nimo.tv
-wsapi.master.live
-img.nimo.tv
-article.nimo.tv
-txpic.vod.nimo.tv
-sail-rank.nimo.tv
-home-cf.nimo.tv
-m.nimo.tv
-udbdf-v2.nimo.tv
-api-cf.nimo.tv
-wspic.vod.nimo.tv
-follow.nimo.tv
-follow-cf-dynamic.nimo.tv
-statwup.nimo.tv
 nimo.tv
+
 # > Discovery Plus
-content-ause1-ur-discovery1.uplynk.com
 disco-api.com
 discoveryplus.com
 fwmrm.net
 getblueshift.com
 litix.io
-mobile-collector.newrelic.com
 uplynk.com
+
 # > AbemaTV
-# - USER-AGENT,AbemaTV*
 abema.io
 abema.tv
 ameba.jp
 hayabusa.io
-abematv.akamaized.net
+keyword:abematv.akamaized.net
 
 # > Apple API
 aaplimg.com
@@ -94,41 +70,39 @@ icloud-content.com
 itunes.com
 me.com
 mzstatic.com
+
 # > Apple News
 apple.news
   
-# > Apple Maps
-  
 # > Apple TV
-np-edge.itunes.apple.com
-play-edge.itunes.apple.com
 tv.apple.com
+full:np-edge.itunes.apple.com
+full:play-edge.itunes.apple.com
   
 # > BBC iPlayer
-bbcfmt
-aod-dash-uk-live.akamaized.net
-aod-hls-uk-live.akamaized.net
-vod-dash-uk-live.akamaized.net
-vod-thumb-uk-live.akamaized.net
 bbc.co
 bbc.co.uk
 bbc.com
 bbcfmt.hs.llnwd.net
 bbci.co
 bbci.co.uk
-bidi.net.uk  
+bidi.net.uk
+full:aod-dash-uk-live.akamaized.net
+full:aod-hls-uk-live.akamaized.net
+full:vod-dash-uk-live.akamaized.net
+full:vod-thumb-uk-live.akamaized.net
+keyword:bbcfmt
+
 # > encoreTVB
 encoretvb.com
-content.jwplatform.com
-videos-f.jwpsrv.com
+full:content.jwplatform.com
+full:videos-f.jwpsrv.com
   
 # > Fox+ (HK|TW|SG)
-# - USER-AGENT,FOXPlus*
 foxplus.com
 theplatform.com
   
 # > Fox Now
-# - USER-AGENT,FOX%20NOW*
 fox.com
 foxdcg.com
 uplynk.com
@@ -150,8 +124,6 @@ streaks.jp
 yb.uncn.jp
   
 # > Japonx
-japonx
-japronx
 japonx.com
 japonx.tv
 japonx.net
@@ -160,10 +132,13 @@ japronx.com
 japronx.tv
 japronx.net
 japronx.vip
+keyword:japonx
+keyword:japronx
 
 # > JOOX
 joox.com
-jooxweb-api
+keyword:joox
+keyword:jooxweb-api
 
 # > KKBOX
 kkbox.com
@@ -173,43 +148,33 @@ kfs.io
 # > KKTV
 kktv.me
 kktv.com.tw
-kktv-theater.kk.stream
+full:kktv-theater.kk.stream
   
 # > letv
 api.mob.app.letv.com
 
 # > Line TV
-# - USER-AGENT,LINE*
-d3c7rimkq79yfu.cloudfront.net
 linetv.tw
 profile.line-scdn.net
+full:d3c7rimkq79yfu.cloudfront.net
   
 # > myTV_SUPER
-# - USER-AGENT,mytv*
 mytvsuper.com
 tvb.com
   
 # > Netease Music
-163yun.com
-api.iplay.163.com
-hz.netease.com
-mam.netease.com
-music.163.com
+music.126.net
+full:api.iplay.163.com
+full:hz.netease.com
+full:mam.netease.com
+full:music.163.com
+
 # > Pandora
 pandora.com
 
-# > SoundCloud
-# - USER-AGENT,SoundCloud*
-sndcdn.com
-soundcloud.com
-
-
-
-
-# Search Domain
-joox
-soundcloud
-resso
+# > Resso
+resso.app
+resso.com
 
 # > Anime
 anoboy.watch
@@ -246,75 +211,46 @@ aniplus-asia.com
 tubi.tv
 midnightpulp.com
 animebee.to
-gogoplay
-gogoanime
-9anime
-# > Niconiconic
-dmc.nico
-nicodic.jp
-nicomanga.jp
-niconico.com
-nicoseiga.jp
-nicovideo.jp
-nimg.jp
-simg.jp
-socdm.com
+keyword:animepahe
+keyword:gogoplay
+keyword:gogoanime
+keyword:9anime
+
 # > Acast
 acast.com
-# > Amazon Video
-aiv-cdn.net
+
+# > Amazon Video (Additional)
 aiv-delivery.net
-amazonvideo.com
-atv-ext-eu.amazon.com
-atv-ext-fe.amazon.com
-atv-ext.amazon.com
-atv-ps-eu.amazon.co.uk
-atv-ps-eu.amazon.com
-atv-ps-fe.amazon.co.jp
-atv-ps-fe.amazon.com
-atv-ps.amazon.com
-primevideo.com
 pv-cdn.net
-# > Apple TV
-tv.apple.com
-tv.g.apple.com
-tv.v.aaplimg.com
+full:atv-ext-eu.amazon.com
+full:atv-ext-fe.amazon.com
+full:atv-ext.amazon.com
+full:atv-ps-eu.amazon.co.uk
+full:atv-ps-eu.amazon.com
+full:atv-ps-fe.amazon.co.jp
+full:atv-ps-fe.amazon.com
+full:atv-ps.amazon.com
+
 # > Crave
 9c9media.ca
 9c9media.com
 crave.ca
+
 # > Dailymotion
 dai.ly
 dailymotion.com
 dailymotionadvertising.com
 dmcdn.net
 dmxleo.com
+
 # > Deezer
 deezer.com
 dzcdn.net
-e28200.a.akamaiedge.net
-# > HBO
-hbo.com
-hbogo.co.th
-hbogo.com
-hbogo.eu
-hbogoasia.com
-hbogoasia.id
-hbogoasia.ph
-hbomax.com
-hbomaxcdn.com
-hbonow.com
-maxgo.com
+full:e28200.a.akamaiedge.net
+
 # > Hotdog radio
 hotdogradio.com
-# > Hulu
-hulu.com
-hulu.jp
-huluad.com
-huluim.com
-hulumail.com
-huluqa.com
-hulustream.com
+
 # > IheartRadio
 937theriver.com
 iheart.com
@@ -327,243 +263,72 @@ ihrdev.com
 ihrhls.com
 ihrint.com
 ihrstage.com
-# > IQiyi
+
+# > IQiyi (Additional)
 iq.com
-iqiyi.com
-iqiyipic.com
-pps.tv
 ppstream.com
-qiyi.com
-qiyipic.com
-qy.net
+
 # > LastFM
 last.fm
+
 # > OCS
 ocs.fr
 ocsdomain.com
+
 # > Pandora
 p-cdn.com
 p-cdn.us
 pandora.com
 savagebeast.com
+
 # > Peacock TV
 peacock.com
 peacocktv.com
+
 # > Plex
 plex.bz
 plex.direct
 plex.tv
 plexapp.com
+
 # > SomaFM
 somafm.com
-# > Soundcloud
-sndcdn.com
-soundcloud.app.goo.gl
-soundcloud.com
-soundcloudmail.com
+
 # > Streamable
 streamable.com
+
 # > Tubi
 adrise.tv
 tubi.io
 tubi.video
 tubitv.com
+
 # > TuneIn
 radiotime.com
 tunein.com
 tunenet.io
-# > Twitch TV
-ext-twitch.tv
-jtvnw.net
+
+# > Twitch TV (Additional)
 live-video.net
-ttvnw.net
-twitch.okta.com
-twitch.tv
-twitchcdn.net
-twitchsvc.net
+full:twitch.okta.com
+
 # > Vevo
 vevo.com
 vevodev.com
 vevoprd.com
 vevostg.com
-# > Vimeo
-vimeo.com
-vimeocdn.com
+
 # > VRV
 vrv.co
+
 # > Vudu
 vudu.com
-# > Youtube
-googlevideo.com
-video.google.com
-youtu.be
-youtube-nocookie.com
-youtube-ui.l.google.com
-youtube.ae
-youtube.al
-youtube.am
-youtube.at
-youtube.az
-youtube.ba
-youtube.be
-youtube.bg
-youtube.bh
-youtube.bo
-youtube.by
-youtube.ca
-youtube.cat
-youtube.ch
-youtube.cl
-youtube.co
-youtube.co.ae
-youtube.co.at
-youtube.co.cr
-youtube.co.hu
-youtube.co.id
-youtube.co.il
-youtube.co.in
-youtube.co.jp
-youtube.co.ke
-youtube.co.kr
-youtube.co.ma
-youtube.co.nz
-youtube.co.th
-youtube.co.tz
-youtube.co.ug
-youtube.co.uk
-youtube.co.ve
-youtube.co.za
-youtube.co.zw
-youtube.com
-youtube.com.ar
-youtube.com.au
-youtube.com.az
-youtube.com.bd
-youtube.com.bh
-youtube.com.bo
-youtube.com.br
-youtube.com.by
-youtube.com.co
-youtube.com.do
-youtube.com.ec
-youtube.com.ee
-youtube.com.eg
-youtube.com.es
-youtube.com.gh
-youtube.com.gr
-youtube.com.gt
-youtube.com.hk
-youtube.com.hn
-youtube.com.hr
-youtube.com.jm
-youtube.com.jo
-youtube.com.kw
-youtube.com.lb
-youtube.com.lv
-youtube.com.ly
-youtube.com.mk
-youtube.com.mt
-youtube.com.mx
-youtube.com.my
-youtube.com.ng
-youtube.com.ni
-youtube.com.om
-youtube.com.pa
-youtube.com.pe
-youtube.com.ph
-youtube.com.pk
-youtube.com.pt
-youtube.com.py
-youtube.com.qa
-youtube.com.ro
-youtube.com.sa
-youtube.com.sg
-youtube.com.sv
-youtube.com.tn
-youtube.com.tr
-youtube.com.tw
-youtube.com.ua
-youtube.com.uy
-youtube.com.ve
-youtube.cr
-youtube.cz
-youtube.de
-youtube.dk
-youtube.ee
-youtube.es
-youtube.fi
-youtube.fr
-youtube.ge
-youtube.googleapis.com
-youtube.gr
-youtube.gt
-youtube.hk
-youtube.hr
-youtube.hu
-youtube.ie
-youtube.in
-youtube.iq
-youtube.is
-youtube.it
-youtube.jo
-youtube.jp
-youtube.kr
-youtube.kz
-youtube.la
-youtube.lk
-youtube.lt
-youtube.lu
-youtube.lv
-youtube.ly
-youtube.ma
-youtube.md
-youtube.me
-youtube.mk
-youtube.mn
-youtube.mx
-youtube.my
-youtube.ng
-youtube.ni
-youtube.nl
-youtube.no
-youtube.pa
-youtube.pe
-youtube.ph
-youtube.pk
-youtube.pl
-youtube.pr
-youtube.pt
-youtube.qa
-youtube.ro
-youtube.rs
-youtube.ru
-youtube.sa
-youtube.se
-youtube.sg
-youtube.si
-youtube.sk
-youtube.sn
-youtube.soy
-youtube.sv
-youtube.tn
-youtube.tv
-youtube.ua
-youtube.ug
-youtube.uy
-youtube.vn
-youtubeeducation.com
-youtubeembeddedplayer.googleapis.com
-youtubei.googleapis.com
-youtubekids.com
-yt.be
-yt3.ggpht.com
-ytimg.com
-# > Youtube IP-CIDR
+
 # > Bigo TV
-likeevideo.com
-like.video
-cube.tv
 bigo.sg
 bigo.tv
+cube.tv
 hzmk.site
-bigo
+like.video
+likeevideo.com
+keyword:bigo
