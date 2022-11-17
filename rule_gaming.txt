@@ -1,5 +1,9 @@
 include:category-games
 include:discord
+include:netease
+include:origin
+
+# Mobile Legends
 mobilelegends.com
 mobilelegends.ca
 mobilelegends.cn
@@ -12,319 +16,199 @@ mobilelegends.com.cn
 youngjoygame.com
 yuanzhanapp.com
 aihelp.net
-tnc16-alisg.isnssdk.com
-gplog-sg.byteoversea.com
-xlog.byteoversea.com
+
 # FreeFire
 freefire
+
 # PUBG
 pubgmobile.com
 igamecj.com
-file-igamecj.akamaized.net
+broker.amsoveasea.com
+gjacky.com
+sg.tdatamaster.com
+full:file-igamecj.akamaized.net
+full:tencentgames.helpshift.com
+keyword:igamecj
+
 # Roblox
 roblox.com
 rbxcdn.com
 rbxtrk.com
 roblox.plus
-robloxinc.s.llnwi.net
+full:robloxinc.s.llnwi.net
+full:6850.f.akamaiedge.net
+full:roblox.ssl.zendesk.com
+  
 # > Agar
 agar.io
+
 # > ark
 arkdedicated.com
 playark.com
+
 # > bigfishgames
 bigfishgames.com
-# > blizzard
-battle.net
-battlenet.com.cn
-blizzard.cn
-blizzard.com
-blizzardgames.cn
-blz-contentstack.com
-blzstatic.cn
-bnet.163.com
-bnet.cn
-# > 2kGaming
-2k.com
-2kcoretech.online
-2ksports.com
+
 # > CoD
 callofduty.com
 callofdutyleague.com
+
 # > Candy Crush
-candycrush.king.com
-candycrush4.king.com
-candycrushsoda.king.com
-candycrushsodamobile.king.com
+king.com
+full:candycrush.king.com
+full:candycrush4.king.com
+full:candycrushsoda.king.com
+full:candycrushsodamobile.king.com
+
 # > CoC
 clashofclans.com
+
 # > Clash Royal
 clashroyale.com
 clashroyaleapp.com
+
 # > cpmstar
 cpmstar.com
-# > EA Games
-ea.com
-eamobile.com
-easports.com
-friends-prod.us-east-1.elasticbeanstalk.com
-nearpolar.com
-swtor.com
-tnt-ea.com
-# > Epic Games
-epicgames.com
-epicgames.dev
-epicgames.net
-unrealengine.com
+
 # > FIFA
-fifa-online.easports.com
-fifa.stats.gameservices.ea.com
-fifa15.content.easports.com
-fifa18.content.easports.com
-fifa19.content.easports.com
-fifa19.service.easports.com
-fifa20.content.easports.com
-fifa20.service.easports.com
-fifa21-prod-gen4-app-16.ea.com
-fifa21-prod-gen4-app-17.ea.com
-fifa21-prod-gen4-app-18.ea.com
-fifa21-prod-gen4-app-19.ea.com
-fifa21-prod-gen4-app-22.ea.com
-fifa21-prod-gen4-app-23.ea.com
-fifa21-prod-gen4-app-24.ea.com
-fifa21.content.easports.com
-fifa21.service.easports.com
-fifa22-prd-mp-blaze-01.ea.com
-fifa22-prd-mp-blaze-02.ea.com
-fifa22-prd-mp-blaze-03.ea.com
-fifa22-prd-mp-blaze-04.ea.com
-fifa22-prd-mp-blaze-05.ea.com
-fifa22-prd-mp-blaze-06.ea.com
-fifa22-prd-mp-blaze-07.ea.com
-fifa22-prd-mp-blaze-08.ea.com
-fifa22-prd-mp-blaze-09.ea.com
-fifa22-prd-mp-blaze-10.ea.com
-fifa22-prd-mp-blaze-11.ea.com
-fifa22-prd-mp-blaze-12.ea.com
-fifa22-prd-mp-blaze-13.ea.com
-fifa22-prd-mp-blaze-14.ea.com
-fifa22-prd-mp-blaze-15.ea.com
-fifa22-prd-mp-blaze-16.ea.com
-fifa22-prd-mp-blaze-17.ea.com
-fifa22-prd-mp-blaze-18.ea.com
-fifa22-prd-mp-blaze-19.ea.com
-fifa22-prd-mp-blaze-20.ea.com
-fifa22-prd-mp-blaze-21.ea.com
-fifa22-prd-mp-blaze-22.ea.com
-fifa22-prd-mp-blaze-23.ea.com
-fifa22-prd-mp-blaze-24.ea.com
-fifa22-prd-mp-blaze-25.ea.com
-fifa22-prd-mp-blaze-26.ea.com
-fifa22-prd-mp-blaze-27.ea.com
-fifa22-prd-mp-blaze-28.ea.com
-fifa22-prd-mp-blaze-29.ea.com
-fifa22-prd-mp-blaze-30.ea.com
-fifa22-prd-mp-blaze-31.ea.com
-fifa22-prd-mp-blaze-32.ea.com
-fifa22-prd-mp-blaze-33.ea.com
-fifa22-prd-mp-blaze-34.ea.com
-fifa22-prd-mp-blaze-35.ea.com
-fifa22-prd-mp-blaze-36.ea.com
-fifa22-prd-mp-blaze-37.ea.com
-fifa22-prd-mp-blaze-38.ea.com
-fifa22-prd-mp-blaze-39.ea.com
-fifa22-prd-mp-blaze-40.ea.com
-fifa22-prd-mp-blaze-41.ea.com
-fifa22-prd-mp-blaze-42.ea.com
-fifa22-prd-mp-blaze-43.ea.com
-fifa22-prd-mp-blaze-44.ea.com
-fifa22-prd-mp-blaze-45.ea.com
-fifa22-prd-mp-blaze-46.ea.com
-fifa22-prd-mp-blaze-47.ea.com
-fifa22-prd-mp-blaze-48.ea.com
-fifa22-prd-mp-blaze-49.ea.com
-fifa22-prd-mp-blaze-50.ea.com
-fifa22.content.easports.com
-fifa22.service.easports.com
+full:fifa-online.easports.com
+full:fifa.stats.gameservices.ea.com
+content.easports.com
+service.easports.com
+keyword:-prod-gen4-app-
+keyword:-prd-mp-blaze-
+keyword:fifa23
+
 # > forgeofempires
 forgeofempires.com
+
 # > gameloft
 gameloft.com
-# > GoG
-gog-statics.com
-gog.com
-gogalaxy.com
-gogcdn.net
+
 # > haydaygame
 haydaygame.com
+
 # > king games
 king.com
 midasplayer.com
+
 # > madden by EA
-madden20.service.easports.com
-madden21.service.easports.com
-madden22.service.easports.com
+full:madden20.service.easports.com
+full:madden21.service.easports.com
+full:madden22.service.easports.com
+
 # > microsoft games
 microsoftcasualgames.com
 msgamestudios.com
+
 # > Minecraft
 minecraft-services.net
 minecraft.net
-minecraftprod.rtep.msgamestudios.com
 minecraftservices.com
 mojang.com
+full:minecraftprod.rtep.msgamestudios.com
+
 # > Miniclip
 miniclip.com
+
 # > Mixer
 mixer.com
+
 # > NHL
-nhl21-prod-app-01.ea.com
-nhl21-prod-app-02.ea.com
-nhl21-prod-app-03.ea.com
-nhl21-prod-app-04.ea.com
-nhl21-prod-app-05.ea.com
-nhl21-prod-app-06.ea.com
-nhl21-prod-app-07.ea.com
-nhl21-prod-app-08.ea.com
-nhl21-prod-app-09.ea.com
-nhl21.content.easports.com
-nhl21.service.easports.com
-nhl22.content.easports.com
-nhl22.service.easports.com
+full:nhl21-prod-app-01.ea.com
+full:nhl21-prod-app-02.ea.com
+full:nhl21-prod-app-03.ea.com
+full:nhl21-prod-app-04.ea.com
+full:nhl21-prod-app-05.ea.com
+full:nhl21-prod-app-06.ea.com
+full:nhl21-prod-app-07.ea.com
+full:nhl21-prod-app-08.ea.com
+full:nhl21-prod-app-09.ea.com
+full:nhl21.content.easports.com
+full:nhl21.service.easports.com
+full:nhl22.content.easports.com
+full:nhl22.service.easports.com
+
 # > Pokemon Go
-niantic.helpshift.com
 nianticlabs.com
 pokemongolive.com
-# > Nintendo
-nintendo-europe.com
-nintendo.be
-nintendo.co.jp
-nintendo.co.uk
-nintendo.com
-nintendo.com.102.112.2o7.net
-nintendo.com.au
-nintendo.de
-nintendo.es
-nintendo.eu
-nintendo.fr
-nintendo.it
-nintendo.jp
-nintendo.net
-nintendo.nl
-nintendoco.s.llnwi.net
-nintendoswitch.cn
-nintendowifi.net
-# > OP
-op.gg
-# > Origin
-origin.com
+full:niantic.helpshift.com
+
 # > Playrix
 playrix.com
-playrix.helpshift.com
-# > Playstation
-playstation.com
-playstation.net
-sonyentertainmentnetwork.com
-# > Riot Games
-leagueoflegends.com
-lolstatic.com
-rgpub.io
-riotcdn.com
-riotcdn.net
-riotgames.com
-# > Rockstar
-rockstargames.com
-# > Steam
-s.team
-steam-chat.com
-steamchina.com
-steamcommunity.com
-steamcontent.com
-steamgames.com
-steampipe.akamaized.net
-steampowered.com
-steampowered.com.8686c.com
-steamstatic.com
-steamstatic.com.8686c.com
-steamusercontent.com
-valve.net
-valvesoftware.com
+full:playrix.helpshift.com
+
 # > Supercell
 supercell.com
-supercell.helpshift.com
 supercell.net
+full:supercell.helpshift.com
+
 # > take2games
 take2games.com
-# > Ubisoft
-ubi.com
-ubisoft.com
-ubisoft.org
-ubisoftconnect.com
+
 # > Unity3d
 unity3d.com
+
 # > War Gaming
 wargaming.com
 wargaming.net
 worldoftanks.com
-# > Xbox
-xbox.com
-gamepass.com
-xboxab.com
-xboxab.net
-xboxlive.com
-xboxservices.com
+
 # > Zynga
 zynga.com
 zynga.my
 zyngagames.com
 zyngapoker.com
-zyngasupport.helpshift.com
+full:zyngasupport.helpshift.com
+
 # > Bleach ES
 vsplay.com
 efun.com
 efunen.com
+
 # > Apex Legends Mobile
-tdm.mgapex.com
-download.2.707369824.dmp.mgapex.com
-bugly-android.mgapex.com
-itop.mgapex.com
-tgpa.mgapex.com
-cloudctrl.mgapex.com
-file.mgapex.com
-ire.csoversea.mgapex.com
-voice-sg.mgapex.com
-pay.mgapex.com
-lobby.mgapex.com
-apex.go.sonobi.com
 mgapex.com
 devmgapex.com
-listdl.com
 awsglobalaccelerator.com
-mgapex
-devmgapex
+keyword:mgapex
+keyword:devmgapex
+
 # > Konami
 konami.net
-konami
 applilink.jp
+keyword:konami
+
 # > Growtopia
 growtopia1.com
 growtopia2.com
 growtopiagame.com
 growtopia
-# > Genshin Impact
-genshinimpact.com
-honkaiimpact3.com
-honkaistarrail.com
-hoyo.link
-hoyolab.com
-hoyoverse.com
-n0vadesktop.com
-mihoyo.com
-genshinimpact
-honkaiimpact3
-mihoyo
+
+# > Arknights
+arknights.global
+yo-star.com
+
 # Stumble Guys
 kitkagames.com
+stumbleguys.com
 exitgames.com
-ns.exitgames.com
-stumblepremiumlive.kitkagames.com
+
+# > PointBlank PC
+pointblank.id
+zepetto.com
+
+# > Idol Party
+changwutuan.com
+170u.com
+
+# > Tower of Fantasy
+intlgame.com
+toweroffantasy-global.com
+centauriglobal.com
+api.globalgme.com
+keyword:intlgame
+
+# > Auto Chess
+dragonest.com
+yeshen.com
+xingzheai.cn
