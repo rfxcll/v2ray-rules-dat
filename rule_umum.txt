@@ -1,4 +1,3 @@
-include:speedtest
 include:rule-playstore
 my.zerotier.com
 zerotier.com
