@@ -1,5 +1,6 @@
-play-fe.googleapis.com
-play-lh.googleusercontent.com
-play.google.com
-play.googleapis.com
+full:play-fe.googleapis.com
+full:play-lh.googleusercontent.com
+full:play.google.com
+full:play.googleapis.com
+
 gvt1.com

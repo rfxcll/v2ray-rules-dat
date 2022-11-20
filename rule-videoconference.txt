@@ -1,29 +1,29 @@
 include:cisco
-# > mscft team
-api.teams.skype.com
-img.teams.skype.com
+
+# > MSFT Team
 lync.cn
 lync.com
 sfbassets.com
 skypeforbusiness.com
 teams-msedge.net
-teams.cdn.live.net
-teams.cdn.office.net
-teams.events.data.microsoft.com
-teams.live.com
-teams.microsoft.com
-teams.microsoft.us
-teams.office.com
-teams.office.net
-teams.skype.com
+full:api.teams.skype.com
+full:img.teams.skype.com
+full:teams.cdn.live.net
+full:teams.cdn.office.net
+full:teams.events.data.microsoft.com
+full:teams.live.com
+full:teams.microsoft.com
+full:teams.microsoft.us
+full:teams.office.com
+full:teams.office.net
+full:teams.skype.com
+
 #> Office 365
 assets-yammer.com
-clo.footprintdns.com
 microsoftonline-p.com
 microsoftonline.com
 msocdn.com
 msocsp.com
-nrb.footprintdns.com
 o365filtering.com
 office.com
 office.de
@@ -31,36 +31,39 @@ office.microsoft
 office.net
 office365.com
 office365.us
-officeapps.live.com
-officecdn.microsoft.com
-officeclient.microsoft.com
 onmicrosoft.com
 svc.ms
 yammer.com
-# > meets hangouts
-alt1-mtalk.google.com
-alt2-mtalk.google.com
-alt3-mtalk.google.com
-alt4-mtalk.google.com
-alt5-mtalk.google.com
-alt6-mtalk.google.com
-alt7-mtalk.google.com
-alt8-mtalk.google.com
-hangouts.clients6.google.com
-hangouts.google.com
-hangouts.googleapis.com
-meet.google.com
-meetings.googleapis.com
-mobile-gtalk.l.google.com
-mobile-gtalk4.l.google.com
-mtalk.google.com
-mtalk4.google.com
-talk.google.com
-talk.l.google.com
-talkx.l.google.com
-#> webex
+full:clo.footprintdns.com
+full:nrb.footprintdns.com
+full:officeapps.live.com
+full:officecdn.microsoft.com
+full:officeclient.microsoft.com
+
+# > Meets Hangouts
+full:alt1-mtalk.google.com
+full:alt2-mtalk.google.com
+full:alt3-mtalk.google.com
+full:alt4-mtalk.google.com
+full:alt5-mtalk.google.com
+full:alt6-mtalk.google.com
+full:alt7-mtalk.google.com
+full:alt8-mtalk.google.com
+full:hangouts.clients6.google.com
+full:hangouts.google.com
+full:hangouts.googleapis.com
+full:meet.google.com
+full:meetings.googleapis.com
+full:mobile-gtalk.l.google.com
+full:mobile-gtalk4.l.google.com
+full:mtalk.google.com
+full:mtalk4.google.com
+full:talk.google.com
+full:talk.l.google.com
+full:talkx.l.google.com
+
+#> Webex
 ciscospark.com
-ciscospark.statuspage.io
 ciscowebex.com
 wbx2.com
 webex.ca
@@ -83,9 +86,14 @@ webexapis.com
 webexapps.com
 webexconnect.com
 webexcontent.com
-#> zoom
-14qjgk812kgk.statuspage.io
+full:ciscospark.statuspage.io
+
+#> Zoom
 zoom.com
 zoom.com.cn
 zoom.us
 zoomgov.com
+full:14qjgk812kgk.statuspage.io
+
+# Skype
+keyword:skype
