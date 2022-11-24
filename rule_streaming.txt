@@ -105,7 +105,6 @@ theplatform.com
 # > Fox Now
 fox.com
 foxdcg.com
-uplynk.com
   
 # > Hulu
 cws-hulu.conviva.com
@@ -119,7 +118,6 @@ hulustream.com
 # > Hulu(フールー)
 happyon.jp
 hulu.jp
-prod.hjholdings.tv
 streaks.jp
 yb.uncn.jp
   
@@ -150,12 +148,12 @@ kktv.me
 kktv.com.tw
 full:kktv-theater.kk.stream
   
-# > letv
-api.mob.app.letv.com
+# > Letv
+full:api.mob.app.letv.com
 
 # > Line TV
 linetv.tw
-profile.line-scdn.net
+full:profile.line-scdn.net
 full:d3c7rimkq79yfu.cloudfront.net
   
 # > myTV_SUPER
@@ -177,7 +175,6 @@ resso.app
 resso.com
 
 # > Anime
-anoboy.watch
 neonime.co
 gomunime.is
 9anime.cz
@@ -215,6 +212,7 @@ keyword:animepahe
 keyword:gogoplay
 keyword:gogoanime
 keyword:9anime
+keyword:anoboy
 
 # > Acast
 acast.com
@@ -332,3 +330,4 @@ hzmk.site
 like.video
 likeevideo.com
 keyword:bigo
+keyword:likee
