@@ -2,23 +2,20 @@ include:disney
 include:hbo
 include:hotstar
 include:netflix
-include:viu
 include:spotify
+include:viu
 
 # > Mola TV
 mola.tv
 cdn.mola.tv
-full:vod.cdn.mola.tv
 full:vod.cdn.mola.tv.akamaized.net
 full:api.sent.tv
-full:cdn01.mola.tv
-full:cdn02.mola.tv
 full:mola01.koicdn.com
 keyword:mola
 
 # > Disney Plus + Hotstar (Additional)
-full:disneyplus.disney.co.jp
 starott.com
+full:disneyplus.disney.co.jp
 
 # > Vidio
 vidio.com
@@ -45,6 +42,7 @@ full:gcpvuclip-a.akamaihd.net
 full:vuclip-eip2.akamaized.net
 full:vuclipi-a.akamaihd.net
 keyword:viu
+keyword:vuclip
 
 # > Beinsport
 beinsports.com
@@ -53,8 +51,9 @@ beinsports
 full:connect-id.beinsports.com
 keyword:bein
 
-# > UseeTV
+# > UseeTV + IndiHome
 useetv.com
+indihometv.com
 keyword:useetv.com
 
 # > DensTV
