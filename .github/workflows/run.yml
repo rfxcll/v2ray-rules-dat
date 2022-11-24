@@ -213,13 +213,13 @@ jobs:
 
       - name: Move and zip files and generate sha256 hash
         run: |
-          install -Dp ./geoip.dat ./publish/geoip.dat
-          install -Dp ./geoip.dat.sha256sum ./publish/geoip.dat.sha256sum
-          install -Dp ./custom/publish/geosite.dat ./publish/geosite.dat
+          install -Dp ./geoip.dat ./publish/GeoIP.dat
+          install -Dp ./geoip.dat.sha256sum ./publish/GeoIP.dat.sha256sum
+          install -Dp ./custom/publish/geosite.dat ./publish/GeoSite.dat
           cd ./publish || exit 1
-          zip iptunnels-geosite.zip geoip.dat geosite.dat
-          sha256sum geosite.dat > geosite.dat.sha256sum
-          sha256sum iptunnels-geosite.zip > iptunnels-geosite.zip.sha256sum
+          zip Geo-files.zip GeoIP.dat GeoSite.dat
+          sha256sum GeoSite.dat > GeoSite.dat.sha256sum
+          sha256sum Geo-files.zip > Geo-files.zip.sha256sum
 
       - name: Release and upload assets
         uses: softprops/action-gh-release@v0.1.6
