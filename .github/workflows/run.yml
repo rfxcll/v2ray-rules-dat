@@ -43,6 +43,7 @@ jobs:
           echo "RULE_PS=https://raw.githubusercontent.com/rfxcll/v2ray-rules-dat/rule/rule_playstore.txt" >> $GITHUB_ENV
           echo "RULE_SOSMED=https://raw.githubusercontent.com/rfxcll/v2ray-rules-dat/rule/rule_sosmed.txt" >> $GITHUB_ENV
           echo "RULE_STREAMING=https://raw.githubusercontent.com/rfxcll/v2ray-rules-dat/rule/rule_streaming.txt" >> $GITHUB_ENV
+          echo "RULE_SPEEDTEST=https://raw.githubusercontent.com/rfxcll/v2ray-rules-dat/rule/rule_speedtest.txt" >> $GITHUB_ENV
           echo "RULE_UMUM=https://raw.githubusercontent.com/rfxcll/v2ray-rules-dat/rule/rule_umum.txt" >> $GITHUB_ENV
           echo "RULE_IPCHECK=https://raw.githubusercontent.com/rfxcll/v2ray-rules-dat/rule/rule_ipcheck.txt" >> $GITHUB_ENV
           echo "RULE_VIDCONFERENCE=https://raw.githubusercontent.com/rfxcll/v2ray-rules-dat/rule/rule_videoconference.txt" >> $GITHUB_ENV
@@ -194,6 +195,8 @@ jobs:
           wget -O rule-sosmed.txt $RULE_SOSMED
           wget -O ./community/data/rule-streaming $RULE_STREAMING
           wget -O rule-streaming.txt $RULE_STREAMING
+          wget -O ./community/data/rule-speedtest $RULE_SPEEDTEST
+          wget -O rule-speedtest.txt $RULE_SPEEDTEST
           wget -O ./community/data/rule-umum $RULE_UMUM
           wget -O rule-umum.txt $RULE_UMUM
           wget -O ./community/data/rule-ipcheck $RULE_IPCHECK
