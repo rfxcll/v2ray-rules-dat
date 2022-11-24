@@ -181,30 +181,30 @@ jobs:
           curl -sSL $OISD_FULL | grep "0.0.0.0" | awk '{print $2}' > oisd-full.txt
           curl -sSL $OISD_NSFW | grep "0.0.0.0" | awk '{print $2}' > ./community/data/oisd-nsfw
           curl -sSL $OISD_NSFW | grep "0.0.0.0" | awk '{print $2}' > oisd-nsfw.txt
-          wget -O ./community/data/rule-ads $RULE_ADS
-          wget -O rule-ads.txt $RULE_ADS
-          wget -O ./community/data/rule-doh $DOH_DNS
-          wget -O rule-doh.txt $DOH_DNS
-          wget -O ./community/data/rule-gaming $RULE_GAME
-          wget -O rule-gaming.txt $RULE_GAME
-          wget -O ./community/data/rule-indo $RULE_INDO
-          wget -O rule-indo.txt $RULE_INDO
-          wget -O ./community/data/rule-playstore $RULE_PS
-          wget -O rule-playstore.txt $RULE_PS
-          wget -O ./community/data/rule-sosmed $RULE_SOSMED
-          wget -O rule-sosmed.txt $RULE_SOSMED
-          wget -O ./community/data/rule-streaming $RULE_STREAMING
-          wget -O rule-streaming.txt $RULE_STREAMING
-          wget -O ./community/data/rule-speedtest $RULE_SPEEDTEST
-          wget -O rule-speedtest.txt $RULE_SPEEDTEST
-          wget -O ./community/data/rule-umum $RULE_UMUM
-          wget -O rule-umum.txt $RULE_UMUM
-          wget -O ./community/data/rule-ipcheck $RULE_IPCHECK
-          wget -O rule-ipcheck.txt $RULE_IPCHECK
-          wget -O ./community/data/videoconference $RULE_VIDCONFERENCE
-          wget -O videoconference.txt $RULE_VIDCONFERENCE
-          wget -O ./community/data/rule-malicious $MALICIOUS_HOST
-          wget -O rule-malicious.txt $MALICIOUS_HOST
+          curl -sSo ./community/data/rule-ads $RULE_ADS
+          curl -sSo rule-ads.txt $RULE_ADS
+          curl -sSo ./community/data/rule-doh $DOH_DNS
+          curl -sSo rule-doh.txt $DOH_DNS
+          curl -sSo ./community/data/rule-gaming $RULE_GAME
+          curl -sSo rule-gaming.txt $RULE_GAME
+          curl -sSo ./community/data/rule-indo $RULE_INDO
+          curl -sSo rule-indo.txt $RULE_INDO
+          curl -sSo ./community/data/rule-playstore $RULE_PS
+          curl -sSo rule-playstore.txt $RULE_PS
+          curl -sSo ./community/data/rule-sosmed $RULE_SOSMED
+          curl -sSo rule-sosmed.txt $RULE_SOSMED
+          curl -sSo ./community/data/rule-streaming $RULE_STREAMING
+          curl -sSo rule-streaming.txt $RULE_STREAMING
+          curl -sSo ./community/data/rule-speedtest $RULE_SPEEDTEST
+          curl -sSo rule-speedtest.txt $RULE_SPEEDTEST
+          curl -sSo ./community/data/rule-umum $RULE_UMUM
+          curl -sSo rule-umum.txt $RULE_UMUM
+          curl -sSo ./community/data/rule-ipcheck $RULE_IPCHECK
+          curl -sSo rule-ipcheck.txt $RULE_IPCHECK
+          curl -sSo ./community/data/videoconference $RULE_VIDCONFERENCE
+          curl -sSo videoconference.txt $RULE_VIDCONFERENCE
+          curl -sSo ./community/data/rule-malicious $MALICIOUS_HOST
+          curl -sSo rule-malicious.txt $MALICIOUS_HOST
 
       - name: Build geosite.dat file
         run: |
