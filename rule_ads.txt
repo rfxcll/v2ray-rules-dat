@@ -9,7 +9,6 @@ full:adfox.yandex.ru
 full:ads-api.twitter.com
 full:ads-dev.pinterest.com
 full:ads-sg.tiktok.com
-full:ads-twitter.com
 full:ads.facebook.com
 full:ads.google.com
 full:ads.linkedin.com
@@ -178,6 +177,7 @@ full:widgets.pinterest.com
 full:www.cdn.ad.xiaomi.com
 full:yandexadexchange.net
 full:youtube.cleverads.vn
+ads-twitter.com
 amazonaax.com
 amazonclix.com
 api-hotjar.com
