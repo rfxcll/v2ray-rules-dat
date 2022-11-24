@@ -1,10 +1,10 @@
 # GEO ASSETS
 
-Generate custom geosite and geoip based on [Loyalsoldier](https://github.com/Loyalsoldier/v2ray-rules-dat) with addtional list.
+Generate custom geosite and geoip based on [Loyalsoldier](https://github.com/Loyalsoldier/v2ray-rules-dat).
 
 ## GEOSITE.DAT
 
-- Same as Original but with addtional list:
+- Only contains the following list:
   - `geosite:oisd-full`
   - `geosite:oisd-nsfw`
   - `geosite:rule-ads`
@@ -14,12 +14,13 @@ Generate custom geosite and geoip based on [Loyalsoldier](https://github.com/Loy
   - `geosite:rule-playstore`
   - `geosite:rule-sosmed`
   - `geosite:rule-streaming`
+  - `geosite:rule-speedtest`
   - `geosite:rule-umum`
   - `geosite:rule-ipcheck`
   - `geosite:videoconference`
   - `geosite:rule-malicious`
 
-> More details for addtional [list](https://github.com/malikshi/v2ray-rules-dat/blob/b3f67d1c2cc83bb2a84ea117b1e0caa340f7a130/.github/workflows/run.yml#L20)
+> More details for addtional [list](https://github.com/rfxcll/v2ray-rules-dat/blob/master/.github/workflows/run.yml#L20)
 
 
 ## GEOIP.DAT
