@@ -1,7 +1,6 @@
 include:category-games
 include:discord
 include:netease
-include:origin
 
 # Mobile Legends
 mobilelegends.com
@@ -18,7 +17,7 @@ yuanzhanapp.com
 aihelp.net
 
 # FreeFire
-freefire
+keyword:freefire
 
 # PUBG
 pubgmobile.com
@@ -42,11 +41,11 @@ full:roblox.ssl.zendesk.com
 # > Agar
 agar.io
 
-# > ark
+# > Ark
 arkdedicated.com
 playark.com
 
-# > bigfishgames
+# > BigFishGames
 bigfishgames.com
 
 # > CoD
@@ -67,37 +66,32 @@ clashofclans.com
 clashroyale.com
 clashroyaleapp.com
 
-# > cpmstar
+# > Cpmstar
 cpmstar.com
 
-# > FIFA
-full:fifa-online.easports.com
-full:fifa.stats.gameservices.ea.com
+# > FIFA (Electronic Arts)
 content.easports.com
 service.easports.com
+full:fifa-online.easports.com
+full:fifa.stats.gameservices.ea.com
 keyword:-prod-gen4-app-
 keyword:-prd-mp-blaze-
 keyword:fifa23
 
-# > forgeofempires
+# > Forge of Empires
 forgeofempires.com
 
-# > gameloft
+# > Gameloft
 gameloft.com
 
-# > haydaygame
+# > HayDay Game
 haydaygame.com
 
-# > king games
+# > King Games
 king.com
 midasplayer.com
 
-# > madden by EA
-full:madden20.service.easports.com
-full:madden21.service.easports.com
-full:madden22.service.easports.com
-
-# > microsoft games
+# > Microsoft Games
 microsoftcasualgames.com
 msgamestudios.com
 
@@ -114,21 +108,6 @@ miniclip.com
 # > Mixer
 mixer.com
 
-# > NHL
-full:nhl21-prod-app-01.ea.com
-full:nhl21-prod-app-02.ea.com
-full:nhl21-prod-app-03.ea.com
-full:nhl21-prod-app-04.ea.com
-full:nhl21-prod-app-05.ea.com
-full:nhl21-prod-app-06.ea.com
-full:nhl21-prod-app-07.ea.com
-full:nhl21-prod-app-08.ea.com
-full:nhl21-prod-app-09.ea.com
-full:nhl21.content.easports.com
-full:nhl21.service.easports.com
-full:nhl22.content.easports.com
-full:nhl22.service.easports.com
-
 # > Pokemon Go
 nianticlabs.com
 pokemongolive.com
@@ -143,7 +122,7 @@ supercell.com
 supercell.net
 full:supercell.helpshift.com
 
-# > take2games
+# > Take2Games
 take2games.com
 
 # > Unity3d
@@ -182,7 +161,7 @@ keyword:konami
 growtopia1.com
 growtopia2.com
 growtopiagame.com
-growtopia
+keyword:growtopia
 
 # > Arknights
 arknights.global
