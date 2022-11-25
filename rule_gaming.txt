@@ -24,7 +24,7 @@ pubgmobile.com
 igamecj.com
 broker.amsoveasea.com
 gjacky.com
-sg.tdatamaster.com
+full:sg.tdatamaster.com
 full:file-igamecj.akamaized.net
 full:tencentgames.helpshift.com
 keyword:igamecj
@@ -191,3 +191,18 @@ keyword:intlgame
 dragonest.com
 yeshen.com
 xingzheai.cn
+
+# > CoDM (com.garena.game.codm)
+codm.garena.com
+connect.garena.com
+msdk.garena.com
+gxx.garenanow.com
+full:cdn.wetest.qq.com
+full:sg.voice.gcloudcs.com
+keyword:gcloudcs
+keyword:codm
+
+# > Anti Cheat Expert
+anticheatexpert.com
+full:asia.csoversea.mbgame.anticheatexpert.com
+keyword:anticheatexpert
