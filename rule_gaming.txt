@@ -133,6 +133,14 @@ wargaming.com
 wargaming.net
 worldoftanks.com
 
+# > Yongshi Games
+yongshigame.com
+
+# > YoStar
+yo-star.com
+yostar.store
+yostarplat.com
+
 # > Zynga
 zynga.com
 zynga.my
@@ -165,7 +173,6 @@ keyword:growtopia
 
 # > Arknights
 arknights.global
-yo-star.com
 
 # Stumble Guys
 kitkagames.com
