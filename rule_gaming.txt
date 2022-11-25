@@ -133,6 +133,9 @@ wargaming.com
 wargaming.net
 worldoftanks.com
 
+# > X.D. Global
+xdg.com
+
 # > Yongshi Games
 yongshigame.com
 
