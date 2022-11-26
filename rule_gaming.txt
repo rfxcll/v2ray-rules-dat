@@ -210,11 +210,27 @@ connect.garena.com
 msdk.garena.com
 gxx.garenanow.com
 full:cdn.wetest.qq.com
-full:sg.voice.gcloudcs.com
-keyword:gcloudcs
 keyword:codm
 
-# > Anti Cheat Expert
+# > Anti Cheat Expert (Tencent Games)
 anticheatexpert.com
 full:asia.csoversea.mbgame.anticheatexpert.com
 keyword:anticheatexpert
+
+# > Arena of Valor (com.garena.game.kgid)
+kg.garena.co.id
+midas.garena.co.i
+kgid.garenanow.com
+cros.garena.com
+iegg.garena.com
+live.qcloud.com
+full:cloud2.gsdk.proximabeta.com
+keyword:kgid
+keyword:aovtv
+
+# > Garena (Support)
+full:sg.voice.gcloudcs.com
+full:vn.voice.gcloudcs.com
+keyword:gcloudcs
+keyword:gcloudsdk
+keyword:nagcloudcs
