@@ -17,7 +17,9 @@ yuanzhanapp.com
 aihelp.net
 
 # FreeFire
+freefiremobile.com
 keyword:freefire
+keyword:ffmax
 
 # PUBG
 pubgmobile.com
