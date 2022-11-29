@@ -55,7 +55,6 @@ callofduty.com
 callofdutyleague.com
 
 # > Candy Crush
-king.com
 full:candycrush.king.com
 full:candycrush4.king.com
 full:candycrushsoda.king.com
@@ -83,6 +82,13 @@ keyword:fifa23
 # > Forge of Empires
 forgeofempires.com
 
+# > Garena (Support)
+full:sg.voice.gcloudcs.com
+full:vn.voice.gcloudcs.com
+keyword:gcloudcs
+keyword:gcloudsdk
+keyword:nagcloudcs
+
 # > Gameloft
 gameloft.com
 
@@ -109,6 +115,12 @@ miniclip.com
 
 # > Mixer
 mixer.com
+
+# > Netease (Additional)
+easebar.com
+neteasegames.com
+keyword:easebar
+keyword:netease
 
 # > Pokemon Go
 nianticlabs.com
@@ -176,10 +188,10 @@ growtopia2.com
 growtopiagame.com
 keyword:growtopia
 
-# > Arknights
+# > Arknights (com.YoStarEN.Arknights)
 arknights.global
 
-# Stumble Guys
+# Stumble Guys (com.kitkagames.fallbuddies)
 kitkagames.com
 stumbleguys.com
 exitgames.com
@@ -192,14 +204,14 @@ zepetto.com
 changwutuan.com
 170u.com
 
-# > Tower of Fantasy
+# > Tower of Fantasy (com.levelinfinite.hotta.gp)
 intlgame.com
 toweroffantasy-global.com
 centauriglobal.com
 api.globalgme.com
 keyword:intlgame
 
-# > Auto Chess
+# > Auto Chess (com.dragonest.autochess.google)
 dragonest.com
 yeshen.com
 xingzheai.cn
@@ -219,18 +231,11 @@ keyword:anticheatexpert
 
 # > Arena of Valor (com.garena.game.kgid)
 kg.garena.co.id
-midas.garena.co.i
-kgid.garenanow.com
-cros.garena.com
+midas.garena.co.id
 iegg.garena.com
+cros.garena.com
+kgid.garenanow.com
 live.qcloud.com
 full:cloud2.gsdk.proximabeta.com
 keyword:kgid
 keyword:aovtv
-
-# > Garena (Support)
-full:sg.voice.gcloudcs.com
-full:vn.voice.gcloudcs.com
-keyword:gcloudcs
-keyword:gcloudsdk
-keyword:nagcloudcs
