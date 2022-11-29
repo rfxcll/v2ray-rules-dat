@@ -47,7 +47,6 @@ keyword:vuclip
 # > Beinsport
 beinsports.com
 beiniz.biz
-beinsports
 full:connect-id.beinsports.com
 keyword:bein
 
