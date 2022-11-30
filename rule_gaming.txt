@@ -85,6 +85,8 @@ forgeofempires.com
 # > Garena (Support)
 full:sg.voice.gcloudcs.com
 full:vn.voice.gcloudcs.com
+full:sg.itopsdk.com
+full:itop.qq.com
 keyword:gcloudcs
 keyword:gcloudsdk
 keyword:nagcloudcs
@@ -222,6 +224,7 @@ connect.garena.com
 msdk.garena.com
 gxx.garenanow.com
 full:cdn.wetest.qq.com
+full:hsg.tdm.qq.com
 keyword:codm
 
 # > Anti Cheat Expert (Tencent Games)
