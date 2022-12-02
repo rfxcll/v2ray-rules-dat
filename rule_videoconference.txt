@@ -18,7 +18,7 @@ full:teams.office.com
 full:teams.office.net
 full:teams.skype.com
 
-#> Office 365
+# > Office 365
 assets-yammer.com
 microsoftonline-p.com
 microsoftonline.com
@@ -62,7 +62,7 @@ full:talk.google.com
 full:talk.l.google.com
 full:talkx.l.google.com
 
-#> Webex
+# > Webex
 ciscospark.com
 ciscowebex.com
 wbx2.com
@@ -88,11 +88,13 @@ webexconnect.com
 webexcontent.com
 full:ciscospark.statuspage.io
 
-#> Zoom
+# > Zoom
 zoom.com
 zoom.com.cn
 zoom.us
 zoomgov.com
+full:zoomus.zendesk.com
+full:zoom.ada.support
 full:14qjgk812kgk.statuspage.io
 
 # Skype
