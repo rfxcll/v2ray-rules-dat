@@ -50,21 +50,22 @@ beiniz.biz
 full:connect-id.beinsports.com
 keyword:bein
 
-# > UseeTV + IndiHome
+# > UseeTV + IndiHome + Maxstream
 useetv.com
 indihometv.com
-keyword:useetv.com
+keyword:useetv
+keyword:telkomsel
 
 # > DensTV
 dens.tv
 
-# > Mncnow
+# > MNC Now
 mncnow.id
 mncplay.id
 keyword:mncnow
 keyword:mncplay
 
-# > VisionPlus
+# > Vision+
 visionplus.id
 rmp-data.com
 full:stream-cdn.mncnow.id
@@ -72,7 +73,7 @@ full:dtaarjaj1diy9.cloudfront.net
 full:mrpw.ptmnc01.verspective.net
 keyword:visionplus
 
-# > We TV
+# > WeTV
 iflix.com
 wetv.vip
 wetvinfo.com
