@@ -5,6 +5,25 @@ include:netflix
 include:spotify
 include:viu
 
+# > Beinsport
+beinsports.com
+beiniz.biz
+full:connect-id.beinsports.com
+keyword:bein
+
+# > DensTV
+dens.tv
+
+# > LiveTV GO
+full:livetvgo.my.id
+keyword:livetvgo
+
+# > MNC Now
+mncnow.id
+mncplay.id
+keyword:mncnow
+keyword:mncplay
+
 # > Mola TV
 mola.tv
 cdn.mola.tv
@@ -13,9 +32,31 @@ full:api.sent.tv
 full:mola01.koicdn.com
 keyword:mola
 
-# > Disney Plus + Hotstar (Additional)
-starott.com
-full:disneyplus.disney.co.jp
+# > Oxygen ID
+oxygen.id
+
+# > SeulangaTV
+seulangatv.com
+keyword:seulanga
+
+# > TRANSVISION
+cubmu.com
+transvision.co.id
+keyword:transvision
+
+# > UseeTV + IndiHome + MAXStream
+useetv.com
+indihometv.com
+keyword:useetv
+keyword:telkomsel
+
+# > Vision+
+visionplus.id
+rmp-data.com
+full:stream-cdn.mncnow.id
+full:dtaarjaj1diy9.cloudfront.net
+full:mrpw.ptmnc01.verspective.net
+keyword:visionplus
 
 # > Vidio
 vidio.com
@@ -32,67 +73,6 @@ full:static-playback-vidio-com.akamaized.net
 full:live-production.secureswiftcontent.com
 keyword:vidio-bein
 keyword:vidio
-
-# > VIU
-viu.com
-viu.tv
-viuapi.io
-full:viu-static.akamaized.net
-full:gcpvuclip-a.akamaihd.net
-full:vuclip-eip2.akamaized.net
-full:vuclipi-a.akamaihd.net
-keyword:viu
-keyword:vuclip
-
-# > Beinsport
-beinsports.com
-beiniz.biz
-full:connect-id.beinsports.com
-keyword:bein
-
-# > UseeTV + IndiHome + Maxstream
-useetv.com
-indihometv.com
-keyword:useetv
-keyword:telkomsel
-
-# > DensTV
-dens.tv
-
-# > MNC Now
-mncnow.id
-mncplay.id
-keyword:mncnow
-keyword:mncplay
-
-# > Vision+
-visionplus.id
-rmp-data.com
-full:stream-cdn.mncnow.id
-full:dtaarjaj1diy9.cloudfront.net
-full:mrpw.ptmnc01.verspective.net
-keyword:visionplus
-
-# > WeTV
-iflix.com
-wetv.vip
-wetvinfo.com
-tc.qq.com
-v.smtcdns.com
-v.smtcdns.net
-full:wetvdefaultts.tc.qq.com
-full:webrtcpunch.video.qq.com
-full:apd-vlive.apdcdn.tc.qq.com
-full:iflix-images.akamaized.net
-keyword:wetv
-
-# > LiveTV GO
-full:livetvgo.my.id
-keyword:livetvgo
-
-# > SeulangaTV
-seulangatv.com
-keyword:seulanga
 
 # > BILIBILI
 biliapi.com
@@ -111,6 +91,34 @@ full:upos-hz-mirrorakam.akamaized.net
 full:upos-bstar1-mirrorakam.akamaized.net
 keyword:bstar
 keyword:bilibili
+
+# > Disney Plus + Hotstar (Additional)
+starott.com
+full:disneyplus.disney.co.jp
+
+# > VIU
+viu.com
+viu.tv
+viuapi.io
+full:viu-static.akamaized.net
+full:gcpvuclip-a.akamaihd.net
+full:vuclip-eip2.akamaized.net
+full:vuclipi-a.akamaihd.net
+keyword:viu
+keyword:vuclip
+
+# > WeTV
+iflix.com
+wetv.vip
+wetvinfo.com
+tc.qq.com
+v.smtcdns.com
+v.smtcdns.net
+full:wetvdefaultts.tc.qq.com
+full:webrtcpunch.video.qq.com
+full:apd-vlive.apdcdn.tc.qq.com
+full:iflix-images.akamaized.net
+keyword:wetv
 
 #Philips Wiz Smart Gateway
 wiz.world
