@@ -47,6 +47,7 @@ keyword:transvision
 # > UseeTV + IndiHome + MAXStream
 useetv.com
 indihometv.com
+useetvgo.com
 keyword:useetv
 keyword:telkomsel
 
