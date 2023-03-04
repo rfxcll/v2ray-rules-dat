@@ -64,8 +64,6 @@ jobs:
           curl -sSL $RULE_ADS | grep "0.0.0.0" | awk '{print $2}' > rule-ads.txt
           curl -sSL $OISD_NSFW | grep "0.0.0.0" | awk '{print $2}' > ./community/data/oisd-nsfw
           curl -sSL $OISD_NSFW | grep "0.0.0.0" | awk '{print $2}' > oisd-nsfw.txt
-          curl -sSo ./community/data/rule-ads $RULE_ADS
-          curl -sSo rule-ads.txt $RULE_ADS
           curl -sSo ./community/data/rule-doh $DOH_DNS
           curl -sSo rule-doh.txt $DOH_DNS
           curl -sSo ./community/data/rule-gaming $RULE_GAME
