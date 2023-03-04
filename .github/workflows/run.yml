@@ -5,9 +5,10 @@ on:
     - cron: "0 21 * * FRI"
   push:
     branches:
-      - master
+      - rule
     paths-ignore:
       - "**/README.md"
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -15,7 +16,8 @@ jobs:
       - name: Setup Go 1.x.y
         uses: actions/setup-go@v3
         with:
-          go-version: ^1.18
+          go-version: '1.20'
+          check-latest: true
 
       - name: Set variables
         run: |
@@ -24,7 +26,7 @@ jobs:
           echo "OISD_FULL=https://hosts.oisd.nl/" >> $GITHUB_ENV
           echo "OISD_NSFW=https://hosts.oisd.nl/nsfw/" >> $GITHUB_ENV
           echo "DOH_DNS=https://raw.githubusercontent.com/dibdot/DoH-IP-blocklists/master/doh-domains.txt" >> $GITHUB_ENV
-          echo "RULE_ADS=https://raw.githubusercontent.com/rfxcll/v2ray-rules-dat/rule/rule_ads.txt" >> $GITHUB_ENV
+          echo "RULE_ADS=https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.txt" >> $GITHUB_ENV
           echo "RULE_GAME=https://raw.githubusercontent.com/rfxcll/v2ray-rules-dat/rule/rule_gaming.txt" >> $GITHUB_ENV
           echo "RULE_INDO=https://raw.githubusercontent.com/rfxcll/v2ray-rules-dat/rule/rule_indo.txt" >> $GITHUB_ENV
           echo "RULE_PS=https://raw.githubusercontent.com/rfxcll/v2ray-rules-dat/rule/rule_playstore.txt" >> $GITHUB_ENV
@@ -51,13 +53,15 @@ jobs:
 
       - name: Get geoip.dat relative files
         run: |
-          wget https://github.com/Loyalsoldier/geoip/raw/release/geoip.dat
-          wget https://github.com/Loyalsoldier/geoip/raw/release/geoip.dat.sha256sum
+          wget https://github.com/malikshi/geoip/raw/release/geoip.dat
+          wget https://github.com/malikshi/geoip/raw/release/geoip.dat.sha256sum
 
       - name: Create custom lists
         run: |
           curl -sSL $OISD_FULL | grep "0.0.0.0" | awk '{print $2}' > ./community/data/oisd-full
           curl -sSL $OISD_FULL | grep "0.0.0.0" | awk '{print $2}' > oisd-full.txt
+          curl -sSL $RULE_ADS | grep "0.0.0.0" | awk '{print $2}' > ./community/data/rule-ads
+          curl -sSL $RULE_ADS | grep "0.0.0.0" | awk '{print $2}' > rule-ads.txt
           curl -sSL $OISD_NSFW | grep "0.0.0.0" | awk '{print $2}' > ./community/data/oisd-nsfw
           curl -sSL $OISD_NSFW | grep "0.0.0.0" | awk '{print $2}' > oisd-nsfw.txt
           curl -sSo ./community/data/rule-ads $RULE_ADS
@@ -101,7 +105,7 @@ jobs:
           sha256sum Geo-files.zip > Geo-files.zip.sha256sum
 
       - name: Release and upload assets
-        uses: softprops/action-gh-release@v0.1.6
+        uses: softprops/action-gh-release@v0.1.15
         with:
           name: ${{ env.RELEASE_NAME }}
           tag_name: ${{ env.TAG_NAME }}
@@ -130,3 +134,11 @@ jobs:
           for file in $(ls); do
             curl -i "https://purge.jsdelivr.net/gh/${{ github.repository }}@release/${file}"
           done
+
+      - name: Delete Old Release
+        uses: dev-drprasad/delete-older-releases@v0.2.1
+        with:
+          repo: malikshi/v2ray-rules-dat
+          keep_latest: 1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
