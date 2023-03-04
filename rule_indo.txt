@@ -136,7 +136,6 @@ blibli.com
 orami.co.id
 ralali.com
 bhinneka.com
-jd.id
 zalora.co.id
 keyword:tokopedia
 keyword:shopee
@@ -173,7 +172,7 @@ keyword:grab
 keyword:grabtaxi
 
 # > LIST Domain tLD Indo & GEOIP INDO
-id
+.id
 co.id
 ac.id
 or.id
@@ -186,3 +185,7 @@ mil.id
 sch.id
 desa.id
 ponpes.id
+
+# > Wiz Philips
+wiz.world
+wizconnected.helpshift.com
