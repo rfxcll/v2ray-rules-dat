@@ -185,7 +185,3 @@ mil.id
 sch.id
 desa.id
 ponpes.id
-
-# > Wiz Philips
-wiz.world
-wizconnected.helpshift.com
