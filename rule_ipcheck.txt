@@ -88,11 +88,12 @@ whatismyip.network
 tracemyip.org
 dnschecker.org
 ipconfig.in
-#keyword
-whatismyip
-iplocation
-myip
-ipapi
-ipify
-ipstack
-ipinfo
+
+# Keyword
+keyword:whatismyip
+keyword:iplocation
+keyword:myip
+keyword:ipapi
+keyword:ipify
+keyword:ipstack
+keyword:ipinfo
