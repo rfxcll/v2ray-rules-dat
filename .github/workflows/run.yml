@@ -33,7 +33,8 @@ jobs:
           echo "RULE_INDO=https://raw.githubusercontent.com/rfxcll/v2ray-rules-dat/rule/rule_indo.txt" >> $GITHUB_ENV
           echo "RULE_PS=https://raw.githubusercontent.com/rfxcll/v2ray-rules-dat/rule/rule_playstore.txt" >> $GITHUB_ENV
           echo "RULE_SOSMED=https://raw.githubusercontent.com/rfxcll/v2ray-rules-dat/rule/rule_sosmed.txt" >> $GITHUB_ENV
-          echo "RULE_STREAMING=https://raw.githubusercontent.com/rfxcll/v2ray-rules-dat/rule/rule_streaming.txt" >> $GITHUB_ENV          echo "RULE_UMUM=https://raw.githubusercontent.com/rfxcll/v2ray-rules-dat/rule/rule_umum.txt" >> $GITHUB_ENV
+          echo "RULE_STREAMING=https://raw.githubusercontent.com/rfxcll/v2ray-rules-dat/rule/rule_streaming.txt" >> $GITHUB_ENV
+          echo "RULE_UMUM=https://raw.githubusercontent.com/rfxcll/v2ray-rules-dat/rule/rule_umum.txt" >> $GITHUB_ENV
           echo "RULE_IPCHECK=https://raw.githubusercontent.com/rfxcll/v2ray-rules-dat/rule/rule_ipcheck.txt" >> $GITHUB_ENV
           echo "RULE_VIDCONFERENCE=https://raw.githubusercontent.com/rfxcll/v2ray-rules-dat/rule/rule_videoconference.txt" >> $GITHUB_ENV
           echo "URLTEST=https://raw.githubusercontent.com/rfxcll/v2ray-rules-dat/rule/urltest.txt" >> $GITHUB_ENV
