@@ -242,3 +242,11 @@ live.qcloud.com
 full:cloud2.gsdk.proximabeta.com
 keyword:kgid
 keyword:aovtv
+
+# > Honor of Kings (com.levelinfinite.sgameGlobal)
+iegcom.com
+intlgame.cn
+sgameglobal.com
+singaporepaya.com
+keyword:game-image
+keyword:hok
