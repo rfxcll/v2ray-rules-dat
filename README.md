@@ -4,7 +4,7 @@ Generate custom geosite and geoip based on [Loyalsoldier](https://github.com/Loy
 
 ## GEOSITE.DAT
 
-- Only contains the following list:
+- Contains the following list:
   - `geosite:oisd-full`
   - `geosite:oisd-small`
   - `geosite:oisd-nsfw`
@@ -21,6 +21,7 @@ Generate custom geosite and geoip based on [Loyalsoldier](https://github.com/Loy
   - `geosite:videoconference`
   - `geosite:rule-malicious`
   - `geosite:urltest`
+  - `geosite:openai`
 
 > More details for addtional [list](https://github.com/rfxcll/v2ray-rules-dat/blob/master/.github/workflows/run.yml#L20)
 
