@@ -21,6 +21,7 @@ include:pixiv
 include:pocketcasts
 include:primevideo
 include:roku
+include:rumble
 include:sling
 include:sonypictures
 include:soundcloud
