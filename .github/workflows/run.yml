@@ -121,10 +121,13 @@ jobs:
         run: |
           wget https://github.com/malikshi/Notes/releases/download/v2box/v2box
           chmod +x v2box
-          ./v2box migrate geoip -i ./publish/geoip.dat -o geoip.db
-          ./v2box migrate geosite -i ./publish/geosite.dat -o geosite.db
-          mv -f geoip.db ./publish/
-          mv -f geosite.db ./publish/
+          ./v2box migrate geoip -i ./publish/GeoIP.dat -o GeoIP.db
+          ./v2box migrate geosite -i ./publish/GeoSite.dat -o GeoSite.db
+          mv -f GeoIP.db ./publish/
+          mv -f GeoSite.db ./publish/
+          cd ./publish || exit 1
+          sha256sum GeoSite.db > GeoSite.db.sha256sum
+          sha256sum GeoIP.db > GeoIP.db.sha256sum
 
       - name: Release and upload assets
         uses: softprops/action-gh-release@v0.1.15
