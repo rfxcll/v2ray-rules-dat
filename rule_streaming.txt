@@ -18,6 +18,7 @@ include:kkbox
 include:mytvsuper
 include:niconico
 include:pixiv
+include:plutotv
 include:pocketcasts
 include:primevideo
 include:roku
