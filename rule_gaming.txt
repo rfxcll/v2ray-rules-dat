@@ -250,3 +250,9 @@ sgameglobal.com
 singaporepaya.com
 keyword:game-image
 keyword:hok
+
+# > RPG Toram Online (com.asobimo.toramonline)
+asobimo.com
+toram.jp
+full:toram-jp.akamaized.net
+keyword:toram
