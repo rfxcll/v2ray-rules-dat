@@ -1,3 +1,4 @@
+include:catchplay
 include:disney
 include:hbo
 include:hotstar
