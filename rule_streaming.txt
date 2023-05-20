@@ -51,13 +51,6 @@ getblueshift.com
 litix.io
 uplynk.com
 
-# > AbemaTV
-abema.io
-abema.tv
-ameba.jp
-hayabusa.io
-keyword:abematv.akamaized.net
-
 # > Apple API
 aaplimg.com
 apple.co
@@ -99,26 +92,8 @@ encoretvb.com
 full:content.jwplatform.com
 full:videos-f.jwpsrv.com
   
-# > Fox+ (HK|TW|SG)
-foxplus.com
-theplatform.com
-  
-# > Fox Now
-fox.com
-foxdcg.com
-  
-# > Hulu
-cws-hulu.conviva.com
-hulu.com
-hulu.hb.omtrdc.net
-hulu.sc.omtrdc.net
-huluad.com
-huluim.com
-hulustream.com
-  
 # > Hulu(フールー)
 happyon.jp
-hulu.jp
 streaks.jp
 yb.uncn.jp
   
@@ -138,11 +113,6 @@ keyword:japronx
 joox.com
 keyword:joox
 keyword:jooxweb-api
-
-# > KKBOX
-kkbox.com
-kkbox.com.tw
-kfs.io
 
 # > KKTV
 kktv.me
@@ -246,6 +216,9 @@ dmxleo.com
 deezer.com
 dzcdn.net
 full:e28200.a.akamaiedge.net
+
+# > FuboTV
+fubo.tv
 
 # > Hotdog radio
 hotdogradio.com
