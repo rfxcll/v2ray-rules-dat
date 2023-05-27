@@ -159,6 +159,7 @@ yongshigame.com
 yo-star.com
 yostar.store
 yostarplat.com
+keyword:yostar
 
 # > Zynga
 zynga.com
@@ -256,3 +257,6 @@ asobimo.com
 toram.jp
 full:toram-jp.akamaized.net
 keyword:toram
+
+# > Aether Gazer (com.YoStar.AetherGazer)
+aethergazer.com
