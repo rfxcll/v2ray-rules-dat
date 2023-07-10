@@ -1,0 +1,54 @@
+# https://idea.or.id/directory-anggota
+payload:
+# > Lazada
+# Main Site
+  - DOMAIN-SUFFIX,lazada.com
+  - DOMAIN-SUFFIX,lazada.co.id
+  - DOMAIN-SUFFIX,lazada.sg
+  - DOMAIN-SUFFIX,lazcdn.com
+  - DOMAIN-KEYWORD,lazada
+# IP Alibaba (US) Technology Co., Ltd.
+  - IP-CIDR,47.246.158.0/23
+# Resource
+  - DOMAIN,dinamicx.alibabausercontent.com
+# AliCDN
+  - DOMAIN,d.alicdn.com
+  - DOMAIN,g.alicdn.com
+  - DOMAIN,hudong.alicdn.com
+  - DOMAIN,laz-dorangesource.alicdn.com
+  - DOMAIN,laz-g-cdn.alicdn.com
+  - DOMAIN,laz-img-cdn.alicdn.com
+  - DOMAIN,o.alicdn.com
+  - DOMAIN,ossgw.alicdn.com
+   DOMAIN,t.alicdn.com
+# Alipay
+  - DOMAIN,irisk-id-l.alipay.com
+# Aliyun
+  - DOMAIN,lazada-wallet.oss-ap-southeast-1.aliyuncs.com
+  - DOMAIN,retcode-sg-lazada.arms.aliyuncs.com
+# Slatic
+  - DOMAIN,gcp-img.slatic.net
+  - DOMAIN,icms-image.slatic.net
+  - DOMAIN,id-live-01.slatic.net
+  - DOMAIN,lzd-bigfile-g.slatic.net
+  - DOMAIN,lzd-img-global.slatic.net
+  - DOMAIN,sg-live-01.slatic.net
+# Taobao
+  - DOMAIN,acs.m.taobao.com
+  - DOMAIN,audid-api-sg.taobao.com
+  - DOMAIN,sjarvis.taobao.com
+  - DOMAIN,xjp-jmacs.m.taobao.com
+  - DOMAIN,xjp-msgacs.m.taobao.com
+# UCweb
+  - DOMAIN,gjapplog.ucweb.com
+  - DOMAIN,px-intl.ucweb.com
+  - DOMAIN,wpk-auth.ucweb.com
+
+# > Tokopedia
+# Main Site
+  - DOMAIN-SUFFIX,tokopedia.link
+  - DOMAIN-SUFFIX,tokopedia.com
+  - DOMAIN-SUFFIX,tokopedia.net
+# Resource 
+  - DOMAIN,ls.cdn-gw-dv.vip
+  - DOMAIN,tokopedia.gw-dv.vip.gw-dv.vip
