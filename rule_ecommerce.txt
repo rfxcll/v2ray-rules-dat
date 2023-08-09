@@ -51,7 +51,7 @@ full:tokopedia.app.link
 
 # Resource 
 full:ls.cdn-gw-dv.vip
-full:tokopedia.gw-dv.vip.gw-dv.vip
+full:tokopedia.gw-dv.vip
 
 # > Shopee
 # Main Site
@@ -74,3 +74,4 @@ full:down-id.img.susercontent.com
 full:down-ws-id.img.susercontent.com
 full:qplay-sp-ix.vod.susercontent.com
 full:spm.susercontent.com
+full:down-aka-sg.img.susercontent.com
