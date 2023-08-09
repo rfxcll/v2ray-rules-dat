@@ -8,6 +8,9 @@ broadbandspeedchecker.co.uk
 loadingtest.com
 testmy.net
 proof.ovh.net
+wifiman.com
+wifiman.me
+uwn.com
 bandwidthplace.com
 keyword:speedtest
 keyword:speedtestcustom

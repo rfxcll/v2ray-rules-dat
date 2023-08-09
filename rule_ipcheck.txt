@@ -100,7 +100,6 @@ keyword:ipapi
 keyword:ipify
 keyword:ipstack
 keyword:ipinfo
-keyword:ipinfo
 keyword:db-ip
 keyword:geoapi
 keyword:dnsleak
