@@ -1,0 +1,80 @@
+# https://idea.or.id/directory-anggota
+
+# > Lazada
+# Main Site
+lazada.com
+lazada.co.id
+lazcdn.com
+keyword:lazada
+
+# Resource
+full:dinamicx.alibabausercontent.com
+
+# AliCDN
+alicdn.com
+
+# Alipay
+full:irisk-id-l.alipay.com
+
+# Aliyun
+full:lazada-wallet.oss-ap-southeast-1.aliyuncs.com
+full:retcode-sg-lazada.arms.aliyuncs.com
+
+# Slatic
+full:gcp-img.slatic.net
+full:icms-image.slatic.net
+full:id-live-01.slatic.net
+full:lzd-bigfile-g.slatic.net
+full:lzd-img-global.slatic.net
+full:sg-live-01.slatic.net
+
+# Taobao
+full:acs.m.taobao.com
+full:amdc.m.taobao.com
+full:audid-api-sg.taobao.com
+full:sjarvis.taobao.com
+full:xjp-jmacs.m.taobao.com
+full:xjp-msgacs.m.taobao.com
+
+# UCweb
+full:gjapplog.ucweb.com
+full:px-intl.ucweb.com
+full:wpk-auth.ucweb.com
+
+# > Tokopedia
+# Main Site
+tokopedia.com
+tokopedia.net
+keyword:tokopedia
+
+# Short Link
+full:tokopedia.link
+full:tokopedia.app.link
+
+# Resource 
+full:ls.cdn-gw-dv.vip
+full:tokopedia.gw-dv.vip.gw-dv.vip
+
+# > Shopee
+# Main Site
+shopee.co.id
+shopee.com
+shopee.io
+shopee.sg
+shopeemobile.com
+keyword:shopee
+
+# Short Link
+full:shope.ee
+full:shp.ee
+
+# Shopee Pay
+airpay.co.id
+shopeepay.co.id
+
+# Resource
+full:cdngarenanow-a.akamaihd.net
+full:down-id.img.susercontent.com
+full:down-ws-id.img.susercontent.com
+full:qplay-sp-ix.vod.susercontent.com
+full:spm.susercontent.com
