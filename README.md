@@ -22,8 +22,10 @@ Generate custom geosite and geoip based on [Loyalsoldier](https://github.com/Loy
   - `geosite:rule-malicious`
   - `geosite:urltest`
   - `geosite:openai`
+  - `geosite:ecommerce-id`
+  - `geosite:bank-id`
 
-> More details for addtional [list](https://github.com/rfxcll/v2ray-rules-dat/blob/master/.github/workflows/run.yml#L20)
+> More details for addtional [list](https://github.com/rfxcll/v2ray-rules-dat/blob/master/.github/workflows/run.yml#L26)
 
 
 ## GEOIP.DAT
