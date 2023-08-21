@@ -303,5 +303,4 @@ cube.tv
 hzmk.site
 like.video
 likeevideo.com
-keyword:bigo
 keyword:likee
