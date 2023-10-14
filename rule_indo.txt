@@ -122,6 +122,9 @@ full:apd-vlive.apdcdn.tc.qq.com
 full:iflix-images.akamaized.net
 keyword:wetv
 
+# > Xiaomi TV+
+full:id.tv.global.mi.com
+
 #Philips Wiz Smart Gateway
 wiz.world
 wizconnected.com
