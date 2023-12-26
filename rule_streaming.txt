@@ -37,6 +37,7 @@ include:vimeo
 include:visualarts
 include:volmoe
 include:wwe
+include:youku
 include:youtube
 include:zeetv
 
