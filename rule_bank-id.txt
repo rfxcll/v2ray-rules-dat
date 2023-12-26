@@ -67,8 +67,7 @@ brksyariah.co.id
 btn.co.id
 btpn.com
 btpnsyariah.com
-bukopin.co.id
-ccb.com
+bukopin.co.id
 chinatrust.co.id
 cimbniaga.com
 citibank.co.id
@@ -79,6 +78,7 @@ deutsche-bank.co.id
 hanabank.co.id
 hsbc.co.id
 icbcindo.com
+idn.ccb.com
 jago.com
 jpmorganchase.com
 jtrustbank.co.id
@@ -103,7 +103,7 @@ seabank.co.id
 shinhan.co.id
 standardchartered.com
 sulteng.go.id
-superbank.id
-syariahbukopin.co.id
+superbank.id
 uob.co.id
 victoriabank.co.id
+wsyariahbukopin.co.id
