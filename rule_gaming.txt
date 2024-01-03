@@ -194,7 +194,7 @@ keyword:growtopia
 # > Arknights (com.YoStarEN.Arknights)
 arknights.global
 
-# Stumble Guys (com.kitkagames.fallbuddies)
+# > Stumble Guys (com.kitkagames.fallbuddies)
 kitkagames.com
 stumbleguys.com
 exitgames.com
@@ -256,6 +256,10 @@ keyword:hok
 asobimo.com
 toram.jp
 full:toram-jp.akamaized.net
+keyword:asb
+keyword:asbpush
+keyword:asobimo
+keyword:iruna
 keyword:toram
 
 # > Aether Gazer (com.YoStar.AetherGazer)
