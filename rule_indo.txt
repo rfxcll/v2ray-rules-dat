@@ -22,8 +22,7 @@ keyword:livetvgo
 # > MNC Now
 mncnow.id
 mncplay.id
-keyword:mncnow
-keyword:mncplay
+keyword:mnc
 
 # > Mola TV
 mola.tv
@@ -37,9 +36,11 @@ keyword:mola
 oxygen.id
 
 # > RCTI+
+mncplus.id
 rctiplus.com
 rctiplus.id
 rcti.plus
+roov.id
 keyword:rcti
 
 # > SeulangaTV
