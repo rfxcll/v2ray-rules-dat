@@ -36,6 +36,12 @@ keyword:mola
 # > Oxygen ID
 oxygen.id
 
+# > RCTI+
+rctiplus.com
+rctiplus.id
+rcti.plus
+keyword:rcti
+
 # > SeulangaTV
 seulangatv.com
 keyword:seulanga
