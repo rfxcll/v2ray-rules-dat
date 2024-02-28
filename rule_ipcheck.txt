@@ -94,6 +94,7 @@ dnsleaktest.org
 
 # Keyword
 keyword:whatismyip
+keyword:whatismyisp
 keyword:iplocation
 keyword:myip
 keyword:ipapi
