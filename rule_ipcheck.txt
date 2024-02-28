@@ -91,6 +91,7 @@ ipconfig.in
 strongleakstest.com
 dns-leak.com
 dnsleaktest.org
+nordvpn.com
 
 # Keyword
 keyword:whatismyip
