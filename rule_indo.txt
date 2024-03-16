@@ -6,7 +6,7 @@ include:netflix
 include:spotify
 include:viu
 
-# > Beinsport
+# > Bein Sport
 beinsports.com
 beiniz.biz
 full:connect-id.beinsports.com
@@ -15,9 +15,15 @@ keyword:bein
 # > DensTV
 dens.tv
 
+# > Eraspace
+eraspace.com
+
 # > LiveTV GO
 full:livetvgo.my.id
 keyword:livetvgo
+
+# > Loklok
+loklok.plus
 
 # > MNC Now
 mncnow.id
