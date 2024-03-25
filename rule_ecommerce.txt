@@ -68,10 +68,10 @@ full:shp.ee
 airpay.co.id
 shopeepay.co.id
 
+# SPinjam
+lenteradana.co.id
+full:spl-h5.cmf.co.id
+
 # Resource
 full:cdngarenanow-a.akamaihd.net
-full:down-id.img.susercontent.com
-full:down-ws-id.img.susercontent.com
-full:qplay-sp-ix.vod.susercontent.com
-full:spm.susercontent.com
-full:down-aka-sg.img.susercontent.com
+susercontent.com
