@@ -101,6 +101,12 @@ haydaygame.com
 king.com
 midasplayer.com
 
+# > Kuro Games
+kurogames.com
+kurogame.net
+kurogame.xyz
+kurogame-service.com
+
 # > Microsoft Games
 microsoftcasualgames.com
 msgamestudios.com
@@ -124,14 +130,17 @@ neteasegames.com
 keyword:easebar
 keyword:netease
 
+# > Playrix
+playrix.com
+full:playrix.helpshift.com
+
 # > Pokemon Go
 nianticlabs.com
 pokemongolive.com
 full:niantic.helpshift.com
 
-# > Playrix
-playrix.com
-full:playrix.helpshift.com
+# > Punishing Gray Raven
+full:pgr.kurogame.net
 
 # > Supercell
 supercell.com
@@ -264,3 +273,7 @@ keyword:toram
 
 # > Aether Gazer (com.YoStar.AetherGazer)
 aethergazer.com
+
+# > Wuthering Waves (com.kurogame.wutheringwaves.global)
+full:wutheringwaves.kurogames.com
+aki-game.net
