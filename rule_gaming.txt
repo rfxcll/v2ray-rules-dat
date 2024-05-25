@@ -127,6 +127,9 @@ mixer.com
 # > Netease (Additional)
 easebar.com
 neteasegames.com
+neteasegames.net
+neteasegame.com
+neteasegame.net
 keyword:easebar
 keyword:netease
 
