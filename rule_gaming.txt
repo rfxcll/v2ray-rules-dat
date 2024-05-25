@@ -111,6 +111,11 @@ kurogame-service.com
 microsoftcasualgames.com
 msgamestudios.com
 
+# > MiHoYo / Hoyoverse / Cognosphere
+hoyoverse.com
+hoyolab.com
+full:hoyo.link
+
 # > Minecraft
 minecraft-services.net
 minecraft.net
