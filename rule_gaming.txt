@@ -114,6 +114,7 @@ msgamestudios.com
 # > MiHoYo / Hoyoverse / Cognosphere
 hoyoverse.com
 hoyolab.com
+n0vadesktop.com
 full:hoyo.link
 
 # > Minecraft
