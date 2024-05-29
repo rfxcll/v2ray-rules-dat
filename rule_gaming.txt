@@ -132,6 +132,7 @@ mixer.com
 
 # > Netease (Additional)
 easebar.com
+easefoo.com
 neteasegames.com
 neteasegames.net
 neteasegame.com
