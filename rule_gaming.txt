@@ -109,6 +109,17 @@ haydaygame.com
 king.com
 midasplayer.com
 
+# > Level Infinite (Tencent)
+anticheatexpert.com
+dl.listdl.com
+intlgame.com
+intlgame.cn
+gcloudcs.com
+myqcloud.com
+keyword:anticheatexpert
+keyword:gcloud
+keyword:myqcloud
+
 # > Kuro Games
 kurogames.com
 kurogame.net
@@ -235,11 +246,9 @@ changwutuan.com
 170u.com
 
 # > Tower of Fantasy (com.levelinfinite.hotta.gp)
-intlgame.com
 toweroffantasy-global.com
 centauriglobal.com
 api.globalgme.com
-keyword:intlgame
 
 # > Auto Chess (com.dragonest.autochess.google)
 dragonest.com
@@ -255,11 +264,6 @@ full:cdn.wetest.qq.com
 full:hsg.tdm.qq.com
 keyword:codm
 
-# > Anti Cheat Expert (Tencent Games)
-anticheatexpert.com
-full:asia.csoversea.mbgame.anticheatexpert.com
-keyword:anticheatexpert
-
 # > Arena of Valor (com.garena.game.kgid)
 kg.garena.co.id
 midas.garena.co.id
@@ -272,12 +276,18 @@ keyword:kgid
 keyword:aovtv
 
 # > Honor of Kings (com.levelinfinite.sgameGlobal)
+honorofkings.com
 iegcom.com
-intlgame.cn
+i.gtimg.cn
 sgameglobal.com
 singaporepaya.com
-keyword:game-image
+smoba.qq.com
+full:atm-broker-tcp-hok.vasdgame.com
+full:dlied5.qq.com
+full:r.sdaswq.com
 keyword:hok
+keyword:globalconnetct
+keyword:sgameglobal
 
 # > RPG Toram Online (com.asobimo.toramonline)
 asobimo.com
