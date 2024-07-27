@@ -45,16 +45,23 @@ jobs:
         shell: bash
 
       - name: Checkout Loyalsoldier/domain-list-custom
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: Loyalsoldier/domain-list-custom
           path: custom
 
       - name: Checkout v2fly/domain-list-community
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: v2fly/domain-list-community
           path: community
+
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: ./custom/go.mod
+          cache-dependency-path: ./custom/go.sum
 
       - name: Get geoip.dat relative files
         run: |
@@ -102,6 +109,25 @@ jobs:
           curl -sSo ./community/data/ecommerce-id $RULE_ECOMMERCE
           curl -sSo ecommerce-id.txt $RULE_ECOMMERCE
 
+      - name: Filter and save d3ward.txt
+        run: |
+          python <<EOF
+          import requests
+
+          # Fetch the contents of the file from the URL
+          url = "https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.txt"
+          response = requests.get(url)
+          data = response.text
+
+          # Filter lines with "0.0.0.0" and spaces and remove "0.0.0.0" text
+          filtered_lines = [line.replace("0.0.0.0 ", "") for line in data.split("\n") if "0.0.0.0 " in line]
+
+          # Save the filtered lines to a file named "d3ward.txt"
+          with open("./community/data/d3ward", "w") as file:
+              for line in filtered_lines:
+                  file.write(line + "\n")
+          EOF
+
       - name: Build geosite.dat file
         run: |
           cd custom || exit 1
@@ -130,16 +156,13 @@ jobs:
           sha256sum GeoIP.db > GeoIP.db.sha256sum
 
       - name: Release and upload assets
-        uses: softprops/action-gh-release@v0.1.15
+        uses: svenstaro/upload-release-action@v2
         with:
-          name: ${{ env.RELEASE_NAME }}
-          tag_name: ${{ env.TAG_NAME }}
-          draft: false
-          prerelease: false
-          files: |
-            ./publish/*
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          release_name: ${{ env.RELEASE_NAME }}
+          tag: ${{ env.TAG_NAME }}
+          file_glob: true
+          file: ./publish/*
 
       - name: Git push assets to "release" branch
         run: |
