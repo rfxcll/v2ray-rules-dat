@@ -56,6 +56,7 @@ bcadigital.co.id
 bcasyariah.co.id
 bjbsyariah.co.id
 bjj.co.id
+blubybcadigital.id
 bni.co.id
 bnpparibas.co.id
 boiindonesia.co.id
@@ -68,7 +69,7 @@ brksyariah.co.id
 btn.co.id
 btpn.com
 btpnsyariah.com
-bukopin.co.id
+bukopin.co.id
 chinatrust.co.id
 cimbniaga.com
 citibank.co.id
@@ -104,7 +105,7 @@ seabank.co.id
 shinhan.co.id
 standardchartered.com
 sulteng.go.id
-superbank.id
+superbank.id
 uob.co.id
 victoriabank.co.id
 wsyariahbukopin.co.id
