@@ -220,8 +220,11 @@ keyword:devmgapex
 
 # > Konami
 konami.net
+konamionline.com
+konami-efootball.com
 applilink.jp
 keyword:konami
+keyword:efootball
 
 # > Growtopia
 growtopia1.com
