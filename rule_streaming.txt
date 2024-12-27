@@ -5,7 +5,7 @@ include:bahamut
 include:bandcamp
 include:dandanzan
 include:dazn
-include:deviantart
+include:netflix
 include:discoveryplus
 include:dlsite
 include:goodreads
@@ -17,7 +17,6 @@ include:kingkonglive
 include:kkbox
 include:mytvsuper
 include:niconico
-include:pixiv
 include:plutotv
 include:pocketcasts
 include:primevideo
@@ -40,6 +39,9 @@ include:wwe
 include:youku
 include:youtube
 include:zeetv
+
+# > YouTube Music
+music.youtube.com
 
 # > NIMO TV
 nimo.tv
@@ -145,46 +147,6 @@ pandora.com
 # > Resso
 resso.app
 resso.com
-
-# > Anime
-neonime.co
-gomunime.is
-9anime.cz
-9anime.id
-9anime.to
-9anime.ws
-animedao-tv.com
-crunchyroll.com
-funimation.com
-gogo-load.com
-gogoanime.vc
-gogoanime.wiki
-gogocdn.net
-hidive.com
-vrv.co
-animedao-tv.com
-animekayo.com
-kayoanime.com
-9anime-tv.com
-kissanime.ru
-animedao.com
-animelab.com
-anime-planet.com
-viz.com
-animeheaven.ru
-animefreak.tv
-contv.com
-asiancrush.com
-animetake.tv
-aniplus-asia.com
-tubi.tv
-midnightpulp.com
-animebee.to
-keyword:animepahe
-keyword:gogoplay
-keyword:gogoanime
-keyword:9anime
-keyword:anoboy
 
 # > Acast
 acast.com
