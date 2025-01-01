@@ -179,6 +179,13 @@ full:supercell.helpshift.com
 # > Take2Games
 take2games.com
 
+# > TapTap
+tap.io
+taptap.io
+tapapis.cn
+tapapis.com
+keyword:tapapis
+
 # > Unity3d
 unity3d.com
 
@@ -186,6 +193,12 @@ unity3d.com
 wargaming.com
 wargaming.net
 worldoftanks.com
+
+# > XD
+xd.com
+t3.xd.com
+xindong.com
+keyword:matchserver
 
 # > X.D. Global
 xdg.com
