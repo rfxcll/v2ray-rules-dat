@@ -1,7 +1,5 @@
 include:rule-playstore
 
-full:my.zerotier.com
-zerotier.com
 tuyaus.com
 twilio.com
 twiliocdn.com
