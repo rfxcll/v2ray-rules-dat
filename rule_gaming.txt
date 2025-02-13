@@ -1,6 +1,7 @@
 include:category-games
 include:discord
 include:netease
+include:nvidia
 
 # Mobile Legends
 mobilelegends.com
