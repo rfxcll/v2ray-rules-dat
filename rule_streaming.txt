@@ -185,6 +185,8 @@ keyword:gogoplay
 keyword:gogoanime
 keyword:9anime
 keyword:anoboy
+keyword:allmanga
+keyword:streamruby
 
 # > Acast
 acast.com
