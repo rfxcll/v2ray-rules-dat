@@ -13,13 +13,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Setup Go
-        uses: actions/setup-go@v5
-        with:
-          go-version-file: ./custom/go.mod
-          cache-dependency-path: ./custom/go.sum
-
-
       - name: Set variables
         run: |
           echo "RELEASE_NAME=Released on $(date +%Y%m%d%H%M)" >> $GITHUB_ENV
