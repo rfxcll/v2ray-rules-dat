@@ -99,13 +99,11 @@ bilibilicomics.com
 bilivideo.com
 bilivideo.net
 bstarstatic.com
-hdslb.com
 full:s-bstarstatic.akamaized.net
 full:pic-bstarstatic.akamaized.net
 full:upos-hz-mirrorakam.akamaized.net
 full:upos-bstar1-mirrorakam.akamaized.net
 keyword:bstar
-keyword:bilibili
 
 # > Disney Plus + Hotstar (Additional)
 starott.com
