@@ -328,11 +328,16 @@ full:wutheringwaves.kurogames.com
 aki-game.net
 
 # > Dragon Nest: Rebirth of Legend (com.lulingame.dncbt.gp)
-cdngslb.com
 latale.tw
 lulingame.com
 titan-game.com
 full:report.3975ad.com
 keyword:lulingame
-keyword:aliyun
-keyword:tencent-cloud
+
+# > Dragon Nest World (com.shengqugames.wod.bilibili)
+ovscdns.com
+sdo.com
+sdoprofile.com
+zjshulong.com
+full:au.rwt.hjy1314.com
+
